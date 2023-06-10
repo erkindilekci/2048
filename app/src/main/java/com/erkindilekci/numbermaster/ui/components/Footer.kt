@@ -50,7 +50,7 @@ fun Footer(
             text = stringResource(R.string.moves, moves),
             textAlign = TextAlign.Center,
             fontWeight = FontWeight.SemiBold,
-            fontSize = 18.sp,
+            fontSize = 20.sp,
             maxLines = 1,
             softWrap = false,
             color = if (isSystemInDarkTheme()) Color(0xFFEFEFEF) else Color.DarkGray
@@ -59,7 +59,7 @@ fun Footer(
             text = timeText,
             textAlign = TextAlign.Center,
             fontWeight = FontWeight.SemiBold,
-            fontSize = 18.sp,
+            fontSize = 20.sp,
             maxLines = 1,
             softWrap = false,
             color = if (isSystemInDarkTheme()) Color(0xFFEFEFEF) else Color.DarkGray
